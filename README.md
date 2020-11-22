@@ -3,7 +3,7 @@
 
 <img src='https://github.com/joaocarlopa/Template_web-2/blob/main/e-title.png'>
 
-# Inicialização/Código  <img src='https://img.shields.io/static/v1?label=messageVsCode&color=9cf'>
+# Inicialização/Código  <img src='https://img.shields.io/badge/-Vscode-blue'>
  
 
 windows:
