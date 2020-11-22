@@ -3,7 +3,7 @@
 
 <img src='https://github.com/joaocarlopa/Template_web-2/blob/main/e-title.png'>
 
-# Inicialização/Código 
+# Inicialização/Código <img src='https://img.shields.io/static/v1?label=Javascript&message=Webpack&color=9cf'>
 
 windows:
 
