@@ -190,7 +190,7 @@ nav ul li {
 .container_direita {
     
     width: 336px;
-    height: 356px;
+    height: auto;
     margin: 8px;
     border-radius: 3px;
     background: rgba(133, 86, 155, 0.3);
