@@ -3,12 +3,17 @@
 
 <img src='https://github.com/joaocarlopa/Template_web-2/blob/main/e-title.png'>
 
-# Inicialização/Código  <img src='https://img.shields.io/badge/-Vscode-blue'>
+# Inicialização <img src='https://img.shields.io/badge/-VsCode-blue'>
  
 
-windows:
+windows: 
+
+     No terminal digite 'npm i' para instalar os componentes do arquivo JSON.
+     
+     Para iniciar o modo espectador no Webpack digite 'npm run inicia'.
+
+# Código 
+
+     Website criado com factory functions no objetivo de simular um site de vendas na teoria.
 
 
-
-
-<img src='https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FJooCarl94846281'>
