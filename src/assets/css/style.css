@@ -1,0 +1,459 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(2, 2, 247, 0.7), rgb(44, 195, 255, 0.7), rgba(73, 73, 72, 0.5));
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font: 12px "lucida grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+.xml {
+    width: 1080px;
+    margin: 0 auto;
+    
+}
+
+
+
+#style {
+    background: linear-gradient(to bottom, rgb(109, 177, 162, 0.7), rgb(160, 115, 212, 0.7), rgb(255, 255, 255, 0.7) );
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#topo {
+    text-align: center;
+    flex-direction: row-reverse;
+    margin-left: 60px;
+}
+
+#topo a {
+    text-decoration: none;
+    color: white;
+    width: 248px;
+    height: 21px;
+    display: block;
+}
+
+#container_topo {
+    flex-direction: row-reverse;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+    
+}
+
+nav ul li {
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#container_topo a {
+    position: relative;
+    top: -20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#container_topo a:hover, #container_topo a:active, #topo a:hover, #topo a:active  {
+    position: relative;
+    left: 2px;
+    filter: brightness(65%);
+}
+
+#tStyle {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/* Fim do header <--
+
+--> Inicio do meio <-- */
+
+#principal {
+    width: auto;
+    margin-left: 0;
+    background: linear-gradient(to bottom, rgb(109, 177, 162, 0.7), rgb(160, 115, 212, 0.7), rgb(255, 255, 255, 0.7) );
+}
+
+#container_meio {
+    width: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+    
+}
+
+#direita {
+
+    float: right;
+    margin: 5px 10px 0px 0px;
+    width: 400px;
+    
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+#esquerda {
+    float: left;
+    margin: 5px 0px 0px 5px;
+    width:450px;
+    
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#title_esquerda {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    position: relative;
+    left: -1%;
+    color: white;
+}
+
+#title_direita {
+    background-color: rgb(0, 0, 0,0.6);
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 2%;
+    width: 91%;
+
+}
+
+#fixed {
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 0%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    display: block;
+    
+    
+    
+}
+
+#ty {
+    margin: 10px;
+}
+
+#fixed a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#fixed a:hover, #fixed a:active {
+    filter: brightness(65%);
+    position: relative;
+    left: 2px;
+}
+
+#fixed a:active {
+    position: relative;
+    top: 2px;
+}
+
+.pç {
+    margin-right: 10px;
+    color: black;
+}
+
+
+
+.container_direita {
+    
+    width: 336px;
+    height: 356px;
+    margin: 8px;
+    border-radius: 3px;
+    background: rgba(133, 86, 155, 0.3);
+}
+
+#co1 {
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+    height: 170px;
+    width: 200px;
+    background: rgba(133, 86, 155, 0.3);
+
+}
+
+
+#co2 {
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+    height: 170px;
+    width: 200px;
+    background: rgba(133, 86, 155, 0.3);
+
+}
+
+#co3{
+    border-radius: 5px;
+    margin: 5px 10px 10px 10px;
+    float: left;
+    width: 200px;
+    height: 170px;
+    background: rgba(133, 86, 155, 0.3);
+}
+
+#co4 {
+    border-radius: 5px;
+    margin: 5px 10px 10px 10px;
+    float: right;
+    height: 170px;
+    width: 200px;
+    background: rgba(133, 86, 155, 0.3);
+}
+
+.title_1 {
+    text-align: center;
+    background-color: rgb(3, 3, 3, 0.6);
+    color: white;
+    font-size: 15px;
+}
+
+.title_1:hover {
+    filter: brightness(80%);
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 8%;
+    left: 25%;
+}
+
+.btnS, .btnM {
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.intro {
+    border: 1px solid lightgrey;
+    padding: 5px;
+    background-color: rgba(185, 185, 185, 0.4);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.intro:hover {
+    filter: brightness(85%);
+    position: relative;
+    left: 1px;
+}
+
+.int {
+    position: relative;
+    top: 10%;
+    left: 15%;
+    padding-bottom: 10px;
+    
+}
+
+.buy {
+    position: relative;
+    left: 14%;
+    margin: 2px;
+    
+}
+
+
+.btnS:hover, .btnM:hover {
+    position: relative;
+    top: 1px;
+    filter: brightness(65%);
+}
+
+.btnS:active, .btnM:active {
+    position: relative;
+    top: 2px;
+}
+
+
+#btn1, #btn2, #btn3, #btn4 {
+    position: relative;
+    left: 14%;
+    
+}
+
+#btn1:active, #btn2:active, #btn3:active, #btn4:active {
+    position: relative;
+    top: 2px;
+}
+
+
+
+#fim_c {
+    width: 100%;
+    margin: 1px;
+}
+
+#fim_r {
+    margin: 1px;
+    width: 100%;
+}
+
+#title_car {
+    
+    display: flex;
+    font-weight: bold;
+}
+
+.value {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.red {
+    color: darkred;
+    text-align: center;
+}
+
+.green {
+    color: darkgreen;
+    text-align: center;
+}
+
+.black {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+#car_cont {
+    
+    font-weight: bold;
+    margin-top: 3px;
+ }
+
+#seta:hover {
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+
+}
+
+#seta:active {
+    position: relative;
+    top: 2px;
+}
+
+#add_din {
+    
+    
+    
+    display: flex;
+    margin-top: 1px;
+}
+
+#add_d {
+    width: 150px;
+}
+
+#btnA:hover {
+   
+    position: relative;
+    top: 1px;
+}
+
+#int1, #int2, #int3, #int4 {
+    width: 130px;
+    height: 20px;
+    margin: 5px;
+    font-size: small;
+}
+
+#click_add {
+    margin-left: 5px;
+}
+
+#click_add:active {
+   position: relative;
+   left: 1px;
+}
+
+#container_car {
+    
+    font-weight: bold;
+    width: 336px;
+    margin-top: 4px;
+
+}
+
+#icon_car {
+    padding: 3px;
+}
+
+#id_car {
+    
+    margin: 0px 10px 10px 23px;
+    font-weight: bold;
+}
+
+
+#id_car table {
+    text-align: center;
+    margin-right: 5px;
+}
+
+#clock {
+    position: relative;
+    top: 30px;
+    margin: 0px 2px 0px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+table {
+    text-align: center;
+}
+
+small {
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    font-style: italic;
+}

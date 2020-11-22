@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Segundo projeto de template",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "html5shiv": "^3.7.3",
+    "core-js": "^3.3.2",
+    "css-loader": "^3.2.0",
+    "regenerator-runtime": "^0.13.3",
+    "style-loader": "^1.0.0"
+  },
+  "scripts": {
+    "inicia": "webpack -w"
+  },
+  "author": "João Carlos Pereira Alves",
+  "license": "ISC"
+}
